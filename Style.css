@@ -1,0 +1,97 @@
+body {
+    background-color: grey;
+     }
+h1 {
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(red 50%, white 50%);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+h2 {
+  text-align: center;
+  margin: 30 0 50 0;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.peta {
+    width: 330px;
+    margin: auto;
+    margin-top:30px;
+    margin-bottom:35px;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+b {
+    color: white;
+    font-size: 14.5px;
+}
+.flag {
+    position: absolute;
+    top: 6.5%;
+    left: 2%;
+}
+
+.flag img{
+    width: 45px;
+    height: 25px;
+}
+
+.flags {
+    position: absolute;
+    top: 6.5%;
+    right: 2%;
+}
+
+.flags img{
+    width: 45px;
+    height: 25px;
+}
+#song-start{
+  position:relative;
+  background:red;
+  color:white;
+  font-family:sans-serif;
+
+  border:2px solid white;
+  border-radius:15px;
+  text-align: center;
+  width:55px;
+  height:25px;
+  font-size:15px;
+  font-weight:800;
+  padding:2px 8px;
+  left:50%;
+  margin-left:-40px;
+}
